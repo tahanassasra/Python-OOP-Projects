@@ -54,7 +54,7 @@ class Category:
             return False
             
 
-
+###  for debugging purpose ###
 food = Category( "Food")
 clothing = Category( "Clothing")
 entertainment = Category("Entertainment")
@@ -68,6 +68,7 @@ clothing.transfer(30, entertainment)
 
 entertainment.withdraw(20, 'market')
 
+#################################
 
 def create_spend_chart(categories):
     spent = []
@@ -120,8 +121,8 @@ def create_spend_chart(categories):
         
 
     
-
+######   For debugging purpose   #######
         
 cati = [food, clothing, entertainment]
-
 print(create_spend_chart(cati))
+########################################
